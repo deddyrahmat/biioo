@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lato',sans-serif;
+}
+
+#navigation{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right,#6dd5ed, #2193b0);
+}
+
+.navbar-brand img{
+    height: 40px;
+    /* margin-left: -20px; */
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav a{
+    color: #ffffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.btn-navigation{
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 28px !important;
+    padding-right: 27px !important;
+    background-color: #AAEBB8;
+    border-radius: 8px;
+}
+
+.btn-navigation:hover{
+    background-color: #bef3ca;
+    border-color: #bef3ca;
+}
+
+.fa-bars{
+    color: #ffffff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* banner section */
+#banner{
+    background-image: linear-gradient(to right,#6dd5ed, #2193b0);
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.promo-subtitle{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.btn-promo{
+    width: 297px;
+    height: 60px;
+    border-radius: 8px;
+    /* background-color: #AAC1EB;
+    border-color: #AAC1EB; */
+    background-color: #2193b0;
+    border-color: #2193b0;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    /* color: #333333; */
+    color: #ffffff;
+}
+
+#banner .btn-info:hover{
+    background-color: #3eb4d1;
+    border-color: #3eb4d1;
+}
+
+/* benefit */
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.benefits h4{
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    /* padding: 30px 50px; */
+}
+
+/* service */
+#service{
+    background-color: #f8f9fa;
+}
+
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services h4{
+    padding-top: 30px;
+    font-weight: bold;
+    /* padding: 30px 50px; */
+}
